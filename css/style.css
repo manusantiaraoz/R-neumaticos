@@ -1,0 +1,96 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+
+.logo {
+  width: 220px;
+}
+.logo-footer {
+  width: 230px;
+}
+nav {
+  box-shadow: 0 0 10px 0 gray;
+}
+
+footer {
+  box-shadow: 0 0 5px 0 gray;
+}
+header li a:hover {
+  text-decoration: underline;
+  background: #1c885549;
+  border-radius: 5px;
+}
+
+
+
+/*estilo manu*/
+
+.imgCarouselOferta {
+  height: 25vw;
+  object-fit: cover;
+}
+
+.text-p-oferta {
+  background-color: rgba(0, 0, 0, 0.658);
+  width: 35vw;
+  margin-left: 10vw;
+}
+.carouselOferta {
+  height: 40vw;
+}
+
+.img-banner {
+  object-fit: cover;
+}
+/* publicidad*/
+.anchoPrincipal {
+  width: 80vw;
+}
+.anchoPubli {
+  width: 15vw;
+}
+
+/* dispositivos sm */
+@media all and (max-width: 767px) {
+  .logo {
+    width: 150px;
+  }
+  .btn-nav {
+    margin-top: 5px;
+  }
+  ul {
+    text-align: center;
+  }
+  .anchoPrincipal {
+    width: 100vw;
+  }
+}
+
+/* dispositivos md */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .btn-nav {
+    margin-top: 5px;
+  }
+  ul {
+    text-align: center;
+  }
+  .anchoPrincipal {
+    width: 100vw;
+  }
+}
+
+/* dispositivos grandes lg */
+
+@media all and (min-width: 992px) {
+    .anchoPrincipal {
+        width: 80vw;
+      }
+      .anchoPubli {
+        width: 15vw;
+      }
+}
