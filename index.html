@@ -82,12 +82,12 @@
               class="btn btn-outline-success me-2 btn-nav"
               title="Registrarse"
             >
-              <a class="page-link" href="../pages/registro.html"
+              <a class="page-link" href=".pages/registro.html"
                 ><i class="bi bi-person-add"></i
               ></a>
             </button>
             <button class="btn btn-outline-success btn-nav" title="Carrito">
-              <a class="page-link" href="../pages/carrito.html">
+              <a class="page-link" href="./pages/carrito.html">
                 <i class="bi bi-cart4"></i
               ></a>
             </button>
@@ -95,118 +95,267 @@
         </div>
       </nav>
     </header>
-    <main class="container-fluid d-flex mx-auto">
-      <section class="border border-danger anchoPrincipal">
-        <article>
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
+    <section class="d-flex justify-content-center">
+      <div
+        id="carouselPrincipal"
+        class="carousel slide w-100"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators d-flex">
+          <button
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex">
+            <img
+              src="./img/ofertabanner3.png"
+              class="d-block w-100 imgCarouselOferta"
+              alt="comprando mas de 2 neumaticos Pirelli te regalamos el
+                balanceo"
+            />
+            <div class="carousel-caption d-md-block">
+              <div class="d-none d-sm-none d-md-block d-lg-block">
+                <h5>Scorpion Pirelli</h5>
+              </div>
+              <div class="text-p-oferta">
+                <p>
+                  <strong
+                    >¡comprando mas de 2 neumaticos Pirelli te regalamos el
+                    balanceo!</strong
+                  >
+                </p>
+              </div>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="./img/ofertabanner3.png"
-                  class="d-block w-100 imgCarouselOferta"
-                  alt="..."
-                />
-                <div class="carousel-caption d-md-block">
-                  <h3>Scorpion Pirelli</h3>
-                  <p class="text-p-oferta">
-                    <strong
-                      >¡comprando mas de 2 neumaticos te regalamos el
-                      balanceo!</strong
-                    >
-                  </p>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/ofertabanner2.png"
+              class="d-block w-100 imgCarouselOferta"
+              alt="oferta 4x3 comprando 3 neumaticos triangle te regalamos el cuarto"
+            />
+
+            <div class="carousel-caption d-md-block d-flex align-content-end">
+              <div class="d-none d-sm-none d-md-block d-lg-block">
+                <h5>Linea Triangle</h5>
               </div>
-              <div class="carousel-item">
-                <img
-                  src="./img/ofertabanner2.png"
-                  class="d-block w-100 imgCarouselOferta"
-                  alt="..."
-                />
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Linea Triangle</h3>
-                  <p class="text-p-oferta">
-                    <strong>¡oferta 4x3!</strong> comprando 3 neumaticos te regalamos el cuarto
-                  </p>
-                </div>
+              <div class="text-p-oferta">
+                <p>
+                  <strong>¡oferta 4x3!</strong> comprando 3 neumaticos triangle
+                  te regalamos el cuarto
+                </p>
               </div>
-              <div class="carousel-item">
-                <img
-                  src="./img/ofertabanner1.png"
-                  class="d-block w-100 imgCarouselOferta"
-                  alt="..."
-                />
-                <div
-                  class="carousel-caption d-none d-md-block order-danger border-2"
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/ofertabanner1.png"
+              class="d-block w-100 imgCarouselOferta"
+              alt="15&percnt; descuento en neumaticos para camionetas"
+            />
+            <div class="carousel-caption d-md-block">
+              <div class="d-none d-sm-none d-md-block d-lg-block">
+                <h5>Oferta Off Road</h5>
+              </div>
+              <div class="text-p-oferta">
+                <p>15&percnt; descuento en neumaticos para camionetas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main class="d-flex w-100 bg-light">
+      <section class="anchoPrincipal ">
+       <article class="shadow p-3 mb-3 bg-body rounded">
+        <h3 class="text-center my-2 ">Productos Destacados</h3>
+       
+        <!--card-->
+        <article class="container d-flex text-center">
+          
+          <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+            <div class="card text-center">
+              <div class="card-header bg-dark">
+                <p class="text-light mt-3 fs-3">SCORPION-AT</p>
+              </div>
+              <div class="card-body bg-light">
+                <img src="../img/SCORPION-AT.png" alt="rueda" class="w-100" />
+              </div>
+              <div class="card-footer cardFooterSide bg-dark">
+                <p class="text-light">
+                  Neumático todoterreno con gran versatilidad de uso en todo
+                  tipo de situaciones
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary mb-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ModalProductos"
                 >
-                  <h5>Oferta Off Road</h5>
-                  <p class="text-p-oferta">
-                    15&percnt; descuento en neumaticos para camionetas
-                  </p>
-                </div>
+                  ver más
+                </button>
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+            <div class="card text-center">
+              <div class="card-header bg-dark">
+                <p class="text-light mt-3 fs-3">SCORPION-ATR</p>
+              </div>
+              <div class="card-body bg-light">
+                <img src="../img/SCORPION-ATR.png" alt="rueda" class="w-100" />
+              </div>
+              <div class="card-footer cardFooterSide bg-dark">
+                <p class="text-light">
+                  El idolo de verano y numero uno en ventas, la mejor rueda de
+                  la actualidad cuenta con mas de 10 capas
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary mb-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ModalProductos"
+                >
+                  ver más
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+            <div class="card text-center">
+              <div class="card-header bg-dark">
+                <p class="text-light mt-3 fs-3">TR999-1</p>
+              </div>
+              <div class="card-body bg-light">
+                <img src="../img/TR999-1.png" alt="rueda" class="w-100" />
+              </div>
+              <div class="card-footer cardFooterSide bg-dark">
+                <p class="text-light">
+                  Garantiza un comportamiento deportivo en carretera, así como
+                  una excelente conducción todoterreno
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-primary mb-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ModalProductos"
+                >
+                  ver más
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </article>
+      </article>
+
+        <!--video-->
+        <article class="container-fluid text-center shadow p-3 mb-3 bg-body rounded">
+          <h2>Mantenete Informado</h2>
+          <div class="d-flex flex-wrap justify-content-center videos">
+            <div>
+
+              <iframe  src="https://www.youtube.com/embed/75jbb06T20I?si=i9JWWH3AQKprbN8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div>
+
+              <iframe src="https://www.youtube.com/embed/kr42S-EhIXM?si=9cm1-UYrxKadYYqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
           </div>
         </article>
-        <article>
-          <p class="text-bg-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum unde
-          </p>
+        
+        <!--seccion marcas-->
+        <article class="container-fluid text-center shadow p-3 mb-3 bg-body rounded">
+          <div class="d-flex flex-column">
+            <div class="text-center">
+              <h3>Trabajamos con las Mejores Marcas</h3>
+            </div>
+            <div class="row">
+              <div class="col-4 d-flex justify-content-center my-3">
+                <img
+                  src="./img/bridgestone.png"
+                  class="img-fluid w-75"
+                  alt=""
+                />
+              </div>
+              <div class="col-4 d-flex justify-content-center my-3">
+                <img
+                  src="./img/pirelli-logo-0.png"
+                  class="img-fluid w-75"
+                  alt=""
+                />
+              </div>
+              <div class="col-4 d-flex justify-content-center my-3">
+                <img src="./img/logo-fate.svg" class="img-fluid w-75" alt="" />
+              </div>
+              <div class="col-6 d-flex justify-content-center my-3">
+                <img src="./img/firestone.png" class="img-fluid w-75" alt="" />
+              </div>
+              <div class="col-6 d-flex justify-content-center my-3">
+                <img src="./img/michelin.jpg" class="img-fluid w-75" alt="" />
+              </div>
+            </div>
+          </div>
         </article>
+
       </section>
-      <aside
-        class="anchoPubli border border-danger d-none d-lg-block d-xl-block"
-      >
-        <div class="container bg-body-secondary">
-          <p>pubi</p>
+      <aside class="anchoPubli d-none d-lg-block d-xl-block text-center">
+        <div class="container my-5 mx-2 py-5 text-center text-light publicidad">
+          <h3>Charles Leclerc:</h3>
+          <h5>"Los intereses de Ferrari siempre son lo primero"</h5>
+          <img src="./img/giphy.gif" class="img-thumbnail" alt="" />
+          <p>
+            Después de los buenos resultados cosechados por Carlos Sainz en las
+            últimas citas ha surgido la polémica entre pilotos, pero Leclerc lo
+            tiene claro. Charles Leclerc estuvo en el panel de la conferencia de
+            prensa de la FIA de antes de la cita de Japón y habló sobre cómo
+            había cambiado el estado de ánimo dentro de la Scuderia después de
+            la victoria en Singapur.
+          </p>
+          <a
+            type="button"
+            class="btn btn-warning"
+            target="_blank"
+            href="https://www.f1aldia.com/noticias/leclerc-intereses-ferrari-primero-45990/"
+            >leer nota</a
+          >
         </div>
-        <div class="container bg-body-secondary">
-          <p>publi</p>
+
+        <div class="container my-5 mx-2 py-5 text-center w-100">
+          <div class="bg-dark anuncioPC publicidadFord w-100">
+            <a href="https://www.ford.com.ar/"
+              ><img
+                src="../img/ranger.jpeg"
+                alt="Imagen de auto Ford"
+                class="img-fluid "
+            /></a>
+            <p class="fs-3 text-center text-light">
+              Encontra tus mejores autos en
+              <a
+                href="https://www.ford.com.ar/"
+                class="link-info link-underline-opacity-75-hover fs-3"
+                >Ford</a
+              >
+            </p>
+          </div>
         </div>
       </aside>
     </main>

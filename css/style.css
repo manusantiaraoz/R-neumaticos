@@ -5,6 +5,7 @@ body {
 }
 main {
   flex-grow: 1;
+  box-shadow: 0 0 10px 0 gray;
 }
 
 .logo {
@@ -26,9 +27,37 @@ header li a:hover {
   border-radius: 5px;
 }
 
-
-
 /*estilo manu*/
+aside {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 1vw;
+}
+.videos iframe {
+  width: 50vw;
+  height: 28vw;
+}
+.publicidad {
+  height: 60vw;
+  background-color: rgba(0, 0, 0, 0.801);
+  font-size: medium;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+}
+.publicidad h3,
+.publicidad h5 {
+  font-size: medium;
+}
+.publicidadFord{
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 gray;
+}
+.publicidadFord img{
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 gray;
+}
 
 .imgCarouselOferta {
   height: 25vw;
@@ -36,25 +65,40 @@ header li a:hover {
 }
 
 .text-p-oferta {
-  background-color: rgba(0, 0, 0, 0.658);
-  width: 35vw;
-  margin-left: 10vw;
+  background-color: rgba(92, 92, 92, 0.658);
 }
 .carouselOferta {
   height: 40vw;
 }
 
-.img-banner {
-  object-fit: cover;
-}
-/* publicidad*/
-.anchoPrincipal {
-  width: 80vw;
-}
-.anchoPubli {
-  width: 15vw;
+.cardFooterSide{
+  height: auto;
 }
 
+/* publicidad*/
+.anchoPrincipal {
+  width: 75vw;
+}
+.anchoPubli {
+  width: 20vw;
+}
+
+/* agregado de productos */
+.imagen-carrusel {
+  height: 400px;
+  object-fit: cover;
+}
+.anuncio-redondeado {
+  border-radius: 0px 0px 30px 30px;
+}
+.ruedaPre {
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+.rueda-texto {
+  left: 18%;
+}
 /* dispositivos sm */
 @media all and (max-width: 767px) {
   .logo {
@@ -69,6 +113,26 @@ header li a:hover {
   .anchoPrincipal {
     width: 100vw;
   }
+  .imgCarouselOferta {
+    height: 40vw;
+  }
+  .carouselOferta {
+    height: 50vw;
+  }
+  .text-p-oferta p {
+    font-size: xx-small;
+  }
+  .videos iframe {
+    width: 100vw;
+    height: 80vw;
+    margin-top: 1vw;
+    margin-bottom: 3%;
+  }
+  /* agregado de productos */
+
+  .anuncioPC {
+    display: none;
+  }
 }
 
 /* dispositivos md */
@@ -82,15 +146,39 @@ header li a:hover {
   .anchoPrincipal {
     width: 100vw;
   }
+  .videos iframe {
+    width: 100vw;
+    height: 50vw;
+  }
+  /* agregado de productos */
+
+  .anuncioPC {
+    display: none;
+  }
 }
 
 /* dispositivos grandes lg */
 
 @media all and (min-width: 992px) {
-    .anchoPrincipal {
-        width: 80vw;
-      }
-      .anchoPubli {
-        width: 15vw;
-      }
+  .anchoPrincipal {
+    width: 75vw;
+  }
+  .anchoPubli {
+    width: 20vw;
+  }
+  .publicidad {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.801);
+    font-size: medium;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 gray;
+  }
+  .publicidad h3,
+  .publicidad h5 {
+    font-size: medium;
+  }
+  /* agregado de productos */
+  .imagen-carrusel {
+    height: 650px;
+  }
 }
