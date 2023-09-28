@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="venta de neumaticos" />
     <meta name="keywords" content="autos, camionetas, camion" />
-    <meta name="author" content="team4: Thiago Benjamin Fiol, Jose E. Navarro Bovi, Pablo Gonzalez, Ramiro velasquez y Santi Araoz Daniel E" />
+    <meta
+      name="author"
+      content="team4: Thiago Benjamin Fiol, Jose E. Navarro Bovi, Pablo Gonzalez, Ramiro velasquez y Santi Araoz Daniel E"
+    />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -37,7 +40,7 @@
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            aria-expanded="true"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
@@ -45,7 +48,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 list-unstyled">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="../index.html"
+                <a class="nav-link" aria-current="page" href="../index.html"
                   >Inicio</a
                 >
               </li>
@@ -157,6 +160,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </section>
+
+      <!-- PUBLICIDAD Y FRASE PRINCIPAL-->
       <section class="bg-light">
         <div class="container py-5">
           <div class="row">
@@ -190,17 +195,9 @@
           </div>
         </div>
       </section>
-      <section class="position-relative">
-        <article class="position-absolute bottom-50 rueda-texto">
-          <h5 class="text-light display-4 text-center">Motos</h5>
-        </article>
-        <img
-          src="../img/ruedaPre.jpeg"
-          alt="rueda suculenta"
-          class="ruedaPre"
-        />
-      </section>
-      <section class="container my-5">
+
+      <!--CARD COMPLETAS-->
+      <section class="container my-5 bg-light">
         <div class="row justify-content-center">
           <div class="col-lg-4 col-md-6 col-sm-12 my-5">
             <div class="card text-center">
@@ -273,20 +270,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="position-relative">
-        <article class="position-absolute bottom-50 rueda-texto">
-          <h5 class="text-light display-4 text-center">Autos</h5>
-        </article>
-        <img
-          src="../img/ruedaPre.jpeg"
-          alt="rueda suculenta"
-          class="ruedaPre"
-        />
-      </section>
-      <section class="container my-5">
-        <div class="row justify-content-center">
           <div class="col-lg-4 col-md-6 col-sm-12 my-5">
             <div class="card text-center">
               <div class="card-header bg-dark">
@@ -359,9 +342,416 @@
               </div>
             </div>
           </div>
+       
+        <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+          <div class="card text-center">
+            <div class="card-header bg-dark">
+              <p class="text-light mt-3 fs-3">A/T 697</p>
+            </div>
+            <div class="card-body bg-light">
+              <img
+                src="../img/DuelerAT697.jpg"
+                alt="rueda"
+                class="img-fluid w-50"
+              />
+            </div>
+            <div class="card-footer bg-dark">
+              <p class="text-light">
+              vida util superior  
+              mayor resistencia al corte  
+              opcion numero uno para aventuras  
+              </p>
+
+              <button
+                type="button"
+                class="btn btn-primary mb-2"
+                data-bs-toggle="modal"
+                data-bs-target="#ModalProductos"
+              >
+                ver más
+              </button>
+            </div>
+          </div>
         </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+          <div class="card text-center">
+            <div class="card-header bg-dark">
+              <p class="text-light mt-3 fs-3">AT694</p>
+            </div>
+            <div class="card-body bg-light">
+              <img
+                src="../img/Bridgestoneht470.png"
+                alt="rueda"
+                class="img-fluid w-50"
+              />
+            </div>
+            <div class="card-footer bg-dark">
+              <p class="text-light ">
+              Diseño AT para uso mixto: Asfalto 60% / fuera de camino 40%  
+              Amplios canales en bloques de hombros  
+              Tecnología UNI-T  
+              </p>
+
+              <button
+                type="button"
+                class="btn btn-primary mb-2"
+                data-bs-toggle="modal"
+                data-bs-target="#ModalProductos"
+              >
+                ver más
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       </section>
-    </main>
+
+      <!--ACORDEON SECCIONES-->
+      <sectio class="text-center ">
+
+      <h2>Busca en Secciones</h2>
+      <div class="accordion accordion-flush" id="accordionFlushProducto">
+        <div class="accordion-item">
+          <h2 class="accordion-header ">
+            <button
+              class="accordion-button bg-secondary-subtle bg-gradient text-dark  collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+            MOTOS
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse 
+            collapse"
+            data-bs-parent="#accordionFlushProducto"
+          >
+            <section class="position-relative">
+              <article class="position-absolute bottom-50 rueda-texto">
+                <h5 class="text-light display-4 text-center">Motos</h5>
+              </article>
+
+              <img
+                src="../img/ruedaPre.jpeg"
+                alt="rueda suculenta"
+                class="ruedaPre"
+              />
+            </section>
+
+            <!--card motos-->
+            <section class="container my-5">
+              <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+                  <div class="card text-center">
+                    <div class="card-header bg-dark">
+                      <p class="text-light mt-3 fs-3">DIABLO ROSSO III</p>
+                    </div>
+                    <div class="card-body bg-light">
+                      <img
+                        src="../img/producto1.jpeg"
+                        alt="rueda"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="card-footer bg-dark">
+                      <p class="text-light">
+                        El neumático deportivo para uso en carretera, predecesor
+                        del DIABLO ROSSO
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-primary mb-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#ModalProductos"
+                      >
+                        ver más
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+                  <div class="card text-center">
+                    <div class="card-header bg-dark">
+                      <p class="text-light mt-3 fs-3">SCORPION TRAIL II</p>
+                    </div>
+                    <div class="card-body bg-light">
+                      <img
+                        src="../img/producto2.jpeg"
+                        alt="rueda"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="card-footer bg-dark">
+                      <p class="text-light">
+                        Un equipo deportivo de turismo con capacidad para
+                        caminos de tierra
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-primary mb-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#ModalProductos"
+                      >
+                        ver más
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+                  <div class="card text-center">
+                    <div class="card-header bg-dark">
+                      <p class="text-light mt-3 fs-3">DIABLO ROSSO IV</p>
+                    </div>
+                    <div class="card-body bg-light">
+                      <img
+                        src="../img/producto3.jpeg"
+                        alt="rueda"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="card-footer bg-dark">
+                      <p class="text-light">
+                        El neumático deportivo definitivo para uso en carretera
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-primary mb-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#ModalProductos"
+                      >
+                        ver más
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed
+              bg-secondary-subtle bg-gradient"
+              type="button "
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseTwo"
+            >
+              AUTOS
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushProducto"
+          >
+            <!--banner autos-->
+            <section class="position-relative">
+              <article class="position-absolute bottom-50 rueda-texto">
+                <h5 class="text-light display-4 text-center">Autos</h5>
+              </article>
+              <img
+                src="../img/ruedaPre.jpeg"
+                alt="rueda suculenta"
+                class="ruedaPre"
+              />
+            </section>
+
+            <!--card autos-->
+            <section class="container my-5">
+              <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+                  <div class="card text-center">
+                    <div class="card-header bg-dark">
+                      <p class="text-light mt-3 fs-3">SCORPION-AT</p>
+                    </div>
+                    <div class="card-body bg-light">
+                      <img
+                        src="../img/SCORPION-AT.png"
+                        alt="rueda"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="card-footer bg-dark">
+                      <p class="text-light">
+                        Neumático todoterreno con gran versatilidad de uso en
+                        todo tipo de situaciones
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-primary mb-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#ModalProductos"
+                      >
+                        ver más
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+                  <div class="card text-center">
+                    <div class="card-header bg-dark">
+                      <p class="text-light mt-3 fs-3">SCORPION-ATR</p>
+                    </div>
+                    <div class="card-body bg-light">
+                      <img
+                        src="../img/SCORPION-ATR.png"
+                        alt="rueda"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="card-footer bg-dark">
+                      <p class="text-light">
+                        El idolo de verano y numero uno en ventas, la mejor
+                        rueda de la actualidad
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-primary mb-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#ModalProductos"
+                      >
+                        ver más
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+                  <div class="card text-center">
+                    <div class="card-header bg-dark">
+                      <p class="text-light mt-3 fs-3">TR999-1</p>
+                    </div>
+                    <div class="card-body bg-light">
+                      <img src="../img/TR999-1.png" alt="rueda" class="w-100" />
+                    </div>
+                    <div class="card-footer bg-dark">
+                      <p class="text-light">
+                        Garantiza un comportamiento deportivo en carretera, así
+                        como una excelente conducción todoterreno
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-primary mb-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#ModalProductos"
+                      >
+                        ver más
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header ">
+            <button
+              class="accordion-button collapsed bg-secondary-subtle bg-gradient"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="true"
+              aria-controls="collapseThree"
+            >
+              CAMIONETAS
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushProducto"
+          >
+          <section class="position-relative">
+            <article class="position-absolute bottom-50 rueda-texto">
+              <h5 class="text-light display-4 text-center">CAMIONETAS</h5>
+            </article>
+
+            <img
+              src="../img/banner4x4.jpg"
+              alt="rueda suculenta"
+              class="ruedaPre"
+            />
+          </section>
+
+          <!--card motos-->
+          <section class="container my-5">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+                <div class="card text-center">
+                  <div class="card-header bg-dark">
+                    <p class="text-light mt-3 fs-3">A/T 697</p>
+                  </div>
+                  <div class="card-body bg-light">
+                    <img
+                      src="../img/DuelerAT697.jpg"
+                      alt="rueda"
+                      class="img-fluid w-50"
+                    />
+                  </div>
+                  <div class="card-footer bg-dark">
+                    <p class="text-light">
+                    vida util superior  
+                    mayor resistencia al corte  
+                    opcion numero uno para aventuras  
+                    </p>
+
+                    <button
+                      type="button"
+                      class="btn btn-primary mb-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#ModalProductos"
+                    >
+                      ver más
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 my-5">
+                <div class="card text-center">
+                  <div class="card-header bg-dark">
+                    <p class="text-light mt-3 fs-3">AT694</p>
+                  </div>
+                  <div class="card-body bg-light">
+                    <img
+                      src="../img/Bridgestoneht470.png"
+                      alt="rueda"
+                      class="img-fluid w-50"
+                    />
+                  </div>
+                  <div class="card-footer bg-dark">
+                    <p class="text-light ">
+                    Diseño AT para uso mixto: Asfalto 60% / fuera de camino 40%  
+                    Amplios canales en bloques de hombros  
+                    Tecnología UNI-T  
+                    </p>
+
+                    <button
+                      type="button"
+                      class="btn btn-primary mb-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#ModalProductos"
+                    >
+                      ver más
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          </div>
+        </div>
+      </div>
+
+    </sectio>
+   </main>
+
     <footer class="text-bg-light pt-3">
       <section class="container">
         <div class="row">

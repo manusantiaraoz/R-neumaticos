@@ -93,9 +93,11 @@ aside {
 }
 .ruedaPre {
   object-fit: cover;
-  height: 400px;
+  height: 100%;
   width: 100%;
 }
+
+
 .rueda-texto {
   left: 18%;
 }
