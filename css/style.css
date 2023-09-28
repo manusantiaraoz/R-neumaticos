@@ -28,6 +28,13 @@ header li a:hover {
 }
 
 /*estilo manu*/
+
+.contenedorForm{
+  background: #0000002a;
+  box-shadow: 0 0 2px 0 rgb(49, 49, 49);
+  border-radius: 5px;
+}
+
 aside {
   display: flex;
   justify-content: center;
