@@ -102,13 +102,13 @@
         <div class="container border py-2 form">
           <form class="m-3 p-3">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label text-white"
+              <label for="nombreyApellido" class="form-label text-white"
                 >Nombres y Apellido:</label
               >
               <input
                 type="text"
                 class="form-control"
-                id="exampleInputEmail1"
+                id="nombreyApellido"
                 aria-describedby="emailHelp"
                 placeholder="ej: Juan Perez"
                 required
@@ -118,13 +118,13 @@
             </div>
 
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label text-white"
+              <label for="email" class="form-label text-white"
                 >Email:</label
               >
               <input
                 type="email"
                 class="form-control"
-                id="exampleInputEmail1"
+                id="Email"
                 placeholder="Ej: juanperez@example.com"
                 required
                 minlength="10"
@@ -133,13 +133,13 @@
             </div>
 
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label text-white"
+              <label  class="form-label text-white"
                 >Asunto:</label
               >
               <input
                 type="text"
                 class="form-control"
-                id="exampleInputEmail1"
+                id="Asunto"
                 aria-describedby="emailHelp"
                 placeholder="(opcional)"
                 minlength="5"
@@ -149,16 +149,18 @@
 
             <div class="mb-3">
               <label
-                for="exampleFormControlTextarea1"
+                for="consulta"
                 class="form-label text-white"
                 >Consulta:</label
               >
               <textarea
                 class="form-control"
-                id="exampleFormControlTextarea1"
+                id="consulta"
                 rows="3"
                 required
                 placeholder="agregue aquí su consulta"
+                minlength="5"
+                maxlength="1000"
               ></textarea>
             </div>
             <div class="form-check mb-3">
@@ -176,7 +178,7 @@
                     class="navbar-brand text-wrap"
                     href="../pages/erro404.html"
                     data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
+                    data-bs-target="#modalContacto"
                     >Política de Privacidad.</a
                   ></span
                 >
@@ -427,15 +429,15 @@
     <!-- Modal -->
     <div
       class="modal fade"
-      id="exampleModal"
+      id="modalContacto"
       tabindex="-1"
-      aria-labelledby="exampleModalLabel"
+      aria-labelledby="modalContactoLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">
+            <h5 class="modal-title" id="modalContactoLabel">
               Política de Privacidad
             </h5>
             <button
