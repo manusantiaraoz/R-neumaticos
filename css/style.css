@@ -107,6 +107,18 @@ aside {
   height: 100%;
   width: 100%;
 }
+.imgComplicada{
+  padding-bottom: 35px;
+}
+.cardFooterDiv{
+  padding-top: 30px;
+}
+.TextPre{
+  bottom: 46%;
+}
+.modeloF{
+  font-family: 'Croissant One', cursive;
+}
 
 
 .rueda-texto {
