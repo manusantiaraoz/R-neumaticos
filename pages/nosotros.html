@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="venta de neumaticos" />
     <meta name="keywords" content="autos, camionetas, camion" />
-    <meta
-      name="author"
-      content="team4: Thiago Benjamin Fiol, Jose E. Navarro Bovi, Pablo Gonzalez, Ramiro velasquez y Santi Araoz Daniel E"
-    />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,19 +17,21 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Rolling Neumaticos</title>
+    <link
+      rel="shortcut icon"
+      href="../img/40791defe7ae13714611621d7a0ea114-corte-de-rueda-de-coche-moderno.png"
+    />
+    <title>Rolling Neumáticos - Nosotros</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg text-bg-light p-3">
         <div class="container">
-          <a class="navbar-brand" href="../index.html"
+          <a class="navbar-brand" href="index.html"
             ><img class="img-fluid logo" src="../img/logo.png" alt=""
           /></a>
           <button
@@ -41,13 +40,13 @@
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
-            aria-expanded="true"
+            aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 list-unstyled">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="../index.html"
                   >Inicio</a
@@ -57,11 +56,11 @@
                 <a class="nav-link" href="./productos.html">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                <a class="nav-link active" href="./nosotros.html">Nosotros</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
               </li>
             </ul>
             <form class="d-flex m-lg-4" role="search">
@@ -75,142 +74,138 @@
                 Buscar
               </button>
             </form>
-            <button
-              class="btn btn-outline-success me-2 btn-nav"
-              title="Iniciar sesion"
-            >
-              <a class="page-link" href="../index.html"
-                ><i class="bi bi-box-arrow-in-right"></i
-              ></a>
+            <button class="btn btn-outline-success me-2 btn-nav">
+              <i class="bi bi-box-arrow-in-right"></i>
             </button>
-            <button
-              class="btn btn-outline-success me-2 btn-nav"
-              title="Registrarse"
-            >
-              <a class="page-link" href="./registro.html"
-                ><i class="bi bi-person-add"></i
-              ></a>
+            <button class="btn btn-outline-success me-2 btn-nav">
+              <i class="bi bi-person-add"></i>
             </button>
-            <button class="btn btn-outline-success btn-nav" title="Carrito">
-              <a class="page-link" href="./carrito.html">
-                <i class="bi bi-cart4"></i
-              ></a>
+            <button class="btn btn-outline-success btn-nav">
+              <i class="bi bi-cart4"></i>
             </button>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section class="container contenedorForm my-4 py-3">
-        <form class="row g-3">
-          <div class="col-md-4 col-xl-6">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input
-              type="text"
-              class="form-control"
-              id="nombre"
-              placeholder="esteban"
-              minlength="3"
-              maxlength="25"
-              required
+      <section class="container">
+        <h5 class="text-center my-4 display-2">Acerca de Nosotros</h5>
+        <p class="lead display-5 fst-italic text-center">
+          "Una Frase muy de nuestro equipo"
+        </p>
+      </section>
+      <section
+        id="carouselNostros"
+        class="carousel slide carousel-dark py-4"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators my-0">
+          <button
+            type="button"
+            data-bs-target="#carouselNostros"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselNostros"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselNostros"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselNostros"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselNostros"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center bg-dark-subtle">
+            <img
+              src="../img/fotoMia.jpg"
+              class="img-fluid rounded-circle border border-3 border-warning-subtle"
+              alt="Foto de Miembro del Equipo"
             />
-          </div>
-          <div class="col-md-4 col-xl-6">
-            <label for="apellido" class="form-label">Apellido</label>
-            <input
-              type="text"
-              class="form-control"
-              id="apellido"
-              placeholder="quito"
-              minlength="3"
-              maxlength="20"
-              required
-            />
-          </div>
-          <div class="col-md-4 col-xl-6">
-            <label for="nombredeUsuario" class="form-label"
-              >Nombre de Usuario</label
-            >
-            <div class="input-group has-validation">
-              <span class="input-group-text" id="inputGroupPrepend3">@</span>
-              <input
-                type="text"
-                class="form-control"
-                id="nombredeUsuario"
-                aria-describedby="inputGroupPrepend3 nombredeUsuarioFeedback"
-                placeholder="user2324"
-                minlength="6"
-                maxlength="20"
-                required
-              />
+            <div class="carousel-caption d-block d-md-block">
+              <p class="carouselNosotros">José Bovi</p>
             </div>
           </div>
-          <div class="col-md-4 col-xl-6">
-            <label for="Email" class="form-label">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="Email"
-              placeholder="ejemplo@gmail.com"
-              minlength="16"
-              maxlength="50"
-              required
+          <div class="carousel-item text-center bg-dark-subtle">
+            <img
+              src="../img/fotoMia.jpg"
+              class="img-fluid rounded-circle border border-3 border-warning-subtle"
+              alt="Foto de Miembro del Equipo"
             />
+            <div class="carousel-caption d-block d-md-block">
+              <p class="carouselNosotros">José Bovi</p>
+            </div>
           </div>
-          <div class="col-md-4 col-xl-6">
-            <label for="telefono" class="form-label">telefono</label>
-            <input
-              type="number"
-              class="form-control"
-              id="telefono"
-              placeholder="agregar codigo de area"
-              minlength="10"
-              maxlength="13"
-              required
+          <div class="carousel-item text-center bg-dark-subtle">
+            <img
+              src="../img/fotoMia.jpg"
+              class="img-fluid rounded-circle border border-3 border-warning-subtle"
+              alt="Foto de Miembro del Equipo"
             />
+            <div class="carousel-caption d-block d-md-block">
+              <p class="carouselNosotros">José Bovi</p>
+            </div>
           </div>
-          <div class="col-md-4 col-xl-6">
-            <label for="Domicilio" class="form-label">Domicilio</label>
-            <input
-              type="text"
-              class="form-control"
-              id="Domicilio"
-              placeholder="ecalle falsa 123"
-              minlength="25"
-              maxlength="45"
-              required
+          <div class="carousel-item text-center bg-dark-subtle">
+            <img
+              src="../img/fotoMia.jpg"
+              class="img-fluid rounded-circle border border-3 border-warning-subtle"
+              alt="Foto de Miembro del Equipo"
             />
+            <div class="carousel-caption d-block d-md-block">
+              <p class="carouselNosotros">José Bovi</p>
+            </div>
           </div>
-          <div class="col-md-4 col-xl-6">
-            <label for="CodigoPostal" class="form-label">Codigo postal</label>
-            <select class="form-select" aria-label="CodigoPostal">
-              <option selected>...</option>
-              <option value="1">San Miguel de tucuman (4000)</option>
-              <option value="2">Yerba Buena (4172)</option>
-              <option value="3">Banda del Rio Sali (4109)</option>
-            </select>
-          </div>
-          <div class="col-md-4 col-xl-6">
-            <label for="Contraseña" class="form-label">Contraseña</label>
-            <input
-              type="password"
-              class="form-control focus-ring py-1 px-2 text-decoration-none border rounded-2"
-              id="Contraseña"
-              minlength="8"
-              maxlength="16"
-              required
+          <div class="carousel-item text-center bg-dark-subtle">
+            <img
+              src="../img/fotoMia.jpg"
+              class="img-fluid rounded-circle border border-3 border-warning-subtle"
+              alt="Foto de Miembro del Equipo"
             />
+            <div class="carousel-caption d-block d-md-block">
+              <p class="carouselNosotros">José Bovi</p>
+            </div>
           </div>
-          <div class="col-12 d-grid gap-2">
-            <button class="btn btn-warning disabled" type="submit">
-              suscribirme
-            </button>
-          </div>
-        </form>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselNostros"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselNostros"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </section>
     </main>
-
-    <footer class="text-bg-light pt-4">
+    <footer class="text-bg-light pt-3">
       <section class="container">
         <div class="row">
           <div class="col-md-4 col-lg-4 text-center">
@@ -326,7 +321,7 @@
             class="col-md-12 col-lg-6 text-lg-start mb-3 d-flex justify-content-center"
           >
             <div>
-              <p>Síguenos en nuestras redes:</p>
+              <p>Siguenos en nuestras redes:</p>
               <div class="d-flex justify-content-start redes">
                 <a href="../pages/error404.html"
                   ><i class="bi bi-instagram fs-3 m-2"></i
