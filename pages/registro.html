@@ -25,134 +25,184 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg text-bg-light p-3">
-            <div class="container">
-              <a class="navbar-brand" href="../index.html"
-                ><img class="img-fluid logo" src="../img/logo.png" alt=""
-              /></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="true"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-lg text-bg-light p-3">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"
+            ><img class="img-fluid logo" src="../img/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 list-unstyled">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/error404.html">Nosotros</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex m-lg-4" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 list-unstyled">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html"
-                      >Inicio</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/error404.html">Nosotros</a>
-                  </li>
-    
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-                <form class="d-flex m-lg-4" role="search">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Buscar"
-                    aria-label="Search"
-                  />
-                  <button class="btn btn-outline-success" type="submit">
-                    Buscar
-                  </button>
-                </form>
-                <button
-                  class="btn btn-outline-success me-2 btn-nav"
-                  title="Iniciar sesion"
-                >
-                  <a class="page-link" href="../index.html"
-                    ><i class="bi bi-box-arrow-in-right"></i
-                  ></a>
-                </button>
-                <button
-                  class="btn btn-outline-success me-2 btn-nav"
-                  title="Registrarse"
-                >
-                  <a class="page-link " href="./registro.html"
-                    ><i class="bi bi-person-add"></i
-                  ></a>
-                </button>
-                <button class="btn btn-outline-success btn-nav" title="Carrito">
-                  <a class="page-link" href="./carrito.html">
-                    <i class="bi bi-cart4"></i
-                  ></a>
-                </button>
-              </div>
-            </div>
-          </nav>
+            </form>
+            <button
+              class="btn btn-outline-success me-2 btn-nav"
+              title="Iniciar sesion"
+            >
+              <a class="page-link" href="../index.html"
+                ><i class="bi bi-box-arrow-in-right"></i
+              ></a>
+            </button>
+            <button
+              class="btn btn-outline-success me-2 btn-nav"
+              title="Registrarse"
+            >
+              <a class="page-link" href="./registro.html"
+                ><i class="bi bi-person-add"></i
+              ></a>
+            </button>
+            <button class="btn btn-outline-success btn-nav" title="Carrito">
+              <a class="page-link" href="./carrito.html">
+                <i class="bi bi-cart4"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-     
-        <section class="container contenedorForm my-4 py-3">
-            
-            
-            <form class="row g-3">
-                <div class="col-md-4 col-xl-6 ">
-                  <label for="nombre" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="nombre" placeholder="esteban" minlength="3"
-                  maxlength="16" required>
-                </div>
-                <div class="col-md-4 col-xl-6">
-                  <label for="apellido" class="form-label">Apellido</label>
-                  <input type="text" class="form-control" id="apellido" placeholder="quito" minlength="3"
-                  maxlength="10" required>
-                </div>
-                <div class="col-md-4 col-xl-6">
-                  <label for="nombredeUsuario" class="form-label">Nombre de Usuario</label>
-                  <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend3">@</span>
-                    <input type="text" class="form-control" id="nombredeUsuario" aria-describedby="inputGroupPrepend3 nombredeUsuarioFeedback"  placeholder="user2324" minlength="6"
-                    maxlength="20"required>
-                  </div>
-                </div>
-                <div class="col-md-4 col-xl-6">
-                    <label for="Email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="Email" placeholder="ejemplo@gmail.com"  minlength="16"
-                    maxlength="256" required>
-                  </div>
-                  <div class="col-md-4 col-xl-6">
-                    <label for="telefono" class="form-label">telefono</label>
-                    <input type="number" class="form-control" id="telefono" placeholder="agregar codigo de area" minlength="10"
-                    maxlength="13" required>
-                  </div>
-                  <div class="col-md-4 col-xl-6">
-                    <label for="Domicilio" class="form-label">Domicilio</label>
-                    <input type="text" class="form-control" id="Domicilio" placeholder="ecalle falsa 123" minlength="25"
-                    maxlength="256" required>
-                  </div>
-                  <div class="col-md-4 col-xl-6">
-                    <label for="CodigoPostal" class="form-label">Codigo postal</label>
-                    <select class="form-select" aria-label="CodigoPostal">
-                        <option selected>...</option>
-                        <option value="1">San Miguel de tucuman (4000)</option>
-                        <option value="2">Yerba Buena (4172)</option>
-                        <option value="3">Banda del Rio Sali (4109)</option>
-                      </select>
-                  </div>
-                  <div class="col-md-4 col-xl-6">
-                    <label for="Contraseña" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control focus-ring  py-1 px-2 text-decoration-none border rounded-2" id="Contraseña" minlength="8"
-                    maxlength="16" required>
-                  </div>
-                <div class="col-12 d-grid gap-2">
-                  <button class="btn btn-warning disabled" type="submit">suscribirme </button>
-                </div>
-              </form>
-               </section>
+      <section class="container contenedorForm my-4 py-3">
+        <form class="row g-3">
+          <div class="col-md-4 col-xl-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              placeholder="esteban"
+              minlength="3"
+              maxlength="25"
+              required
+            />
+          </div>
+          <div class="col-md-4 col-xl-6">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input
+              type="text"
+              class="form-control"
+              id="apellido"
+              placeholder="quito"
+              minlength="3"
+              maxlength="20"
+              required
+            />
+          </div>
+          <div class="col-md-4 col-xl-6">
+            <label for="nombredeUsuario" class="form-label"
+              >Nombre de Usuario</label
+            >
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              <input
+                type="text"
+                class="form-control"
+                id="nombredeUsuario"
+                aria-describedby="inputGroupPrepend3 nombredeUsuarioFeedback"
+                placeholder="user2324"
+                minlength="6"
+                maxlength="20"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col-xl-6">
+            <label for="Email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="Email"
+              placeholder="ejemplo@gmail.com"
+              minlength="16"
+              maxlength="50"
+              required
+            />
+          </div>
+          <div class="col-md-4 col-xl-6">
+            <label for="telefono" class="form-label">telefono</label>
+            <input
+              type="number"
+              class="form-control"
+              id="telefono"
+              placeholder="agregar codigo de area"
+              minlength="10"
+              maxlength="13"
+              required
+            />
+          </div>
+          <div class="col-md-4 col-xl-6">
+            <label for="Domicilio" class="form-label">Domicilio</label>
+            <input
+              type="text"
+              class="form-control"
+              id="Domicilio"
+              placeholder="ecalle falsa 123"
+              minlength="25"
+              maxlength="45"
+              required
+            />
+          </div>
+          <div class="col-md-4 col-xl-6">
+            <label for="CodigoPostal" class="form-label">Codigo postal</label>
+            <select class="form-select" aria-label="CodigoPostal">
+              <option selected>...</option>
+              <option value="1">San Miguel de tucuman (4000)</option>
+              <option value="2">Yerba Buena (4172)</option>
+              <option value="3">Banda del Rio Sali (4109)</option>
+            </select>
+          </div>
+          <div class="col-md-4 col-xl-6">
+            <label for="Contraseña" class="form-label">Contraseña</label>
+            <input
+              type="password"
+              class="form-control focus-ring py-1 px-2 text-decoration-none border rounded-2"
+              id="Contraseña"
+              minlength="8"
+              maxlength="16"
+              required
+            />
+          </div>
+          <div class="col-12 d-grid gap-2">
+            <button class="btn btn-warning disabled" type="submit">
+              suscribirme
+            </button>
+          </div>
+        </form>
+      </section>
     </main>
 
     <footer class="text-bg-light pt-4">
@@ -262,7 +312,7 @@
           >
             <img
               class="logo-footer"
-              src="./img/logo.png"
+              src="../img/logo.png"
               alt="logo R-neumaticos"
             />
           </div>
