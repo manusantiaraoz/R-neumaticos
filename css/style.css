@@ -128,11 +128,13 @@ aside {
 
 .carouselNosotros{
   display: inline;
-  background-color: rgba(0, 0, 0, 0.548); /* Fondo semitransparente */
+  background-color: rgba(78, 37, 37, 0.671); /* Fondo semitransparente */
   color: #fff; /* Color del texto */
   padding: 5px; /* Espaciado interno para el texto */
+  font-size: 35px;
 
 }
+
 /* dispositivos sm */
 @media all and (max-width: 767px) {
   .logo {
@@ -167,6 +169,21 @@ aside {
   .anuncioPC {
     display: none;
   }
+  
+.imagenNosotros{
+  width: 400px;
+  height: 300px;
+  }
+
+  .carouselNosotros{
+    display: inline;
+    background-color: rgba(78, 37, 37, 0.671); /* Fondo semitransparente */
+    color: #fff; /* Color del texto */
+    padding: 5px; /* Espaciado interno para el texto */
+    font-size: 18px;
+  
+  }
+  
 }
 
 /* dispositivos md */
@@ -189,6 +206,13 @@ aside {
   .anuncioPC {
     display: none;
   }
+
+  
+.imagenNosotros{
+  width: 500px;
+  height: 500px;
+  }
+  
 }
 
 /* dispositivos grandes lg */
@@ -215,4 +239,11 @@ aside {
   .imagen-carrusel {
     height: 650px;
   }
+
+  
+.imagenNosotros{
+  width: 600px;
+  height: 600px;
+  }
+  
 }
