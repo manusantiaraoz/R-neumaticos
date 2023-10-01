@@ -22,6 +22,10 @@
     />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/error404.css" />
+    <link
+      rel="shortcut icon"
+      href="../img/40791defe7ae13714611621d7a0ea114-corte-de-rueda-de-coche-moderno.png"
+    />
     <title>ERROR 404</title>
   </head>
   <body>
@@ -29,7 +33,10 @@
       <nav class="navbar navbar-expand-lg text-bg-light p-3">
         <div class="container">
           <a class="navbar-brand" href="../index.html"
-            ><img class="img-fluid logo" src="../img/logo.png" alt=""
+            ><img
+              class="img-fluid logo"
+              src="../img/logo.png"
+              alt="logo R-neumaticos"
           /></a>
           <button
             class="navbar-toggler"
@@ -43,7 +50,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 list-unstyled">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="../index.html"
                   >Inicio</a
@@ -53,13 +60,11 @@
                 <a class="nav-link" href="./productos.html">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/error404.html">Nosotros</a>
+                <a class="nav-link active" href="./nosotros.html">Nosotros</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./contacto.html"
-                  >Contacto</a
-                >
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
             </ul>
             <form class="d-flex m-lg-4" role="search">
@@ -76,10 +81,10 @@
             <button
               class="btn btn-outline-success me-2 btn-nav"
               title="Iniciar sesion"
+              data-bs-toggle="modal"
+              data-bs-target="#ModalLogin"
             >
-              <a class="page-link" href="./login.html"
-                ><i class="bi bi-box-arrow-in-right"></i
-              ></a>
+              <i class="bi bi-box-arrow-in-right"></i>
             </button>
             <button
               class="btn btn-outline-success me-2 btn-nav"
@@ -89,9 +94,9 @@
                 ><i class="bi bi-person-add"></i
               ></a>
             </button>
-            <button class="btn btn-outline-success btn-nav" title="Carrito">
-              <a class="page-link" href="./carrito.html">
-                <i class="bi bi-cart4"></i
+            <button class="btn btn-outline-success btn-nav">
+              <a class="page-link" href="./carrito.html"
+                ><i class="bi bi-cart4"></i
               ></a>
             </button>
           </div>
@@ -108,11 +113,89 @@
               alt="error 404"
               id="imgError404"
             />
-            <a href="../index.html" class="btn btn-primary mb-4">Volver al inicio</a>
+            <a href="../index.html" class="btn btn-primary mb-4"
+              >Volver al inicio</a
+            >
           </div>
         </div>
       </section>
     </main>
+    <div
+    class="modal fade"
+    id="ModalLogin"
+    tabindex="-1"
+    aria-labelledby="Modallo"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header text-bg-dark">
+          <h5 class="modal-title h5">Iniciar sesión</h5>
+          <button
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="InputEmail1" class="form-label"
+                >Correo electrónico</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="InputEmail1"
+                aria-describedby="emailHelp"
+                required
+                minlength="10"
+                maxlength="320"
+              />
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="InputPassword1" class="form-label"
+                >Contraseña</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="InputPassword1"
+                required
+                minlength="8"
+                maxlength="64"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="Check1"
+              />
+              <label class="form-check-label" for="Check1"
+                >Recordar</label
+              >
+            </div>
+
+            <p>
+              Es tu primera vez?
+              <span><a href="./registro.html">Registrate</a></span>
+            </p>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary mx-3">
+                Iniciar sesión
+              </button>
+              <button type="submit" class="btn btn-dark mx-3">
+                <i class="bi bi-google"></i> Continuar con Google
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
     <footer class="text-bg-light pt-4">
       <section class="container">
         <div class="row">

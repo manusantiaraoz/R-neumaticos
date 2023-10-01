@@ -32,7 +32,6 @@ header li a:hover {
   border-radius: 5px;
 }
 
-/*estilo manu*/
 
 .contenedorForm{
   background: #0000002a;
@@ -87,7 +86,7 @@ aside {
   height: auto;
 }
 
-/* publicidad*/
+
 .anchoPrincipal {
   width: 75vw;
 }
@@ -95,7 +94,6 @@ aside {
   width: 20vw;
 }
 
-/* agregado de productos */
 .imagen-carrusel {
   height: 400px;
   object-fit: cover;
@@ -111,9 +109,11 @@ aside {
 .imgComplicada{
   padding-bottom: 35px;
 }
+
 .cardFooterDiv{
   padding-top: 30px;
 }
+
 .TextPre{
   bottom: 46%;
 }
@@ -128,14 +128,14 @@ aside {
 
 .carouselNosotros{
   display: inline;
-  background-color: rgba(78, 37, 37, 0.671); /* Fondo semitransparente */
-  color: #fff; /* Color del texto */
-  padding: 5px; /* Espaciado interno para el texto */
+  background-color: rgba(78, 37, 37, 0.671); 
+  color: #fff;
+  padding: 5px; 
   font-size: 35px;
 
 }
 
-/* dispositivos sm */
+
 @media all and (max-width: 767px) {
   .logo {
     width: 150px;
@@ -165,7 +165,7 @@ aside {
 
     margin-bottom: 3%;
   }
-  /* agregado de productos */
+
 
   .anuncioPC {
     display: none;
@@ -178,16 +178,16 @@ aside {
 
   .carouselNosotros{
     display: inline;
-    background-color: rgba(78, 37, 37, 0.671); /* Fondo semitransparente */
-    color: #fff; /* Color del texto */
-    padding: 5px; /* Espaciado interno para el texto */
+    background-color: rgba(78, 37, 37, 0.671);
+    color: #fff; 
+    padding: 5px; 
     font-size: 18px;
   
   }
   
 }
 
-/* dispositivos md */
+
 @media all and (min-width: 768px) and (max-width: 991px) {
   .btn-nav {
     margin-top: 5px;
@@ -202,7 +202,6 @@ aside {
     width: 100vw;
     height: 50vw;
   }
-  /* agregado de productos */
 
   .anuncioPC {
     display: none;
@@ -213,10 +212,13 @@ aside {
   width: 500px;
   height: 500px;
   }
+
+  .cardFooterDiv{
+    padding: 35px;
+  }
   
 }
 
-/* dispositivos grandes lg */
 
 @media all and (min-width: 992px) {
   .anchoPrincipal {
@@ -236,7 +238,6 @@ aside {
   .publicidad h5 {
     font-size: medium;
   }
-  /* agregado de productos */
   .imagen-carrusel {
     height: 650px;
   }
